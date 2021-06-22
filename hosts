@@ -14,4 +14,5 @@ app_servers
 database_servers
 
 [all:vars]
-GUID="{{ lookup('env', 'GUID') }}"
+#GUID="{{ lookup('env', 'GUID') }}"
+GUID=n5l98
